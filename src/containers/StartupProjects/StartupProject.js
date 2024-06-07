@@ -44,7 +44,7 @@ export default function StartupProject() {
                   }
                 >
                   {project.image ? (
-                    <div className="project-image">
+                    <div className="project-image bgWhite">
                       <img
                         src={project.image}
                         alt={project.projectName}

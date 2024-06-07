@@ -16,6 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.bgwhite{
+    background-color: #fff;
+
+}
 html,
 body {
   scroll-behavior: smooth;
