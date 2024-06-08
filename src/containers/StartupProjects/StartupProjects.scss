@@ -5,6 +5,7 @@
   height: auto;
   width: 250px;
 }
+
 .card-title {
   color: $titleColor;
   font-size: 22px;
@@ -12,20 +13,33 @@
   font-weight: 700;
   margin: 15px 0 0 0;
 }
+
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
 }
+
 .project-card {
   display: flex;
   flex-direction: column;
   background-color: $lightBackground2;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
 }
+
+.slick-slider {
+  margin-inline: -30px; //  space between slides * (-1)
+}
+
+.slick-slide {
+  > div { // automatically generated 'div' by 'react-slick'
+    margin-inline: 15px; //  space between slides / 2
+  }
+}
+
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
@@ -42,13 +56,18 @@
 
 .project-detail {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
+
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
+
 .project-card-dark:hover {
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
+
 .project-image {
   position: relative;
   height: 250px;

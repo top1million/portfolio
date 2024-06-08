@@ -20,13 +20,14 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Amro Abu Hashish",
+  username: "AbuHashish",
   title: "Hi all, I'm Amro Abu Hashish",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    // i have experince with mern ,django m springboot , android
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Mern , Django , SpringBoot , Android and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1PBBl7MosigbgNgHFdfV1RvPhea6F-xWR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/10vEcaXrXlJcu64EKpTwhbW8k64MSTgfo/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -58,7 +59,8 @@ const skillsSection = {
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     ),
-    emoji("⚡ Experience with Docker and Kubernetes , Linux Servers")
+    emoji("⚡ Experience with Docker and Kubernetes , Linux Servers"),
+    emoji("⚡ Experience with Manual and Automation Testing , using Selenium and Junit"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -192,11 +194,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front-End Developer",
+      role: "Full Stack Developer",
       company: " IPC Ideal Solutions\n",
       companylogo: require("./assets/images/idealLogo.png"),
       date: "Mar 2024 – Present",
-      desc: "Developed and maintained the front-end of the company's website, ensuring seamless user experience. Collaborated with the back-end team to integrate user-facing elements with server-side logic. Conducted regular testing to ensure optimal functionality and performance.",
+      // for backend i used spring boot and for frontend i used reactjs , crafted a full stack application that integrated geojson , and leaflet , and used the mapbox api to display the data on the map
+      desc: "Crafted a full stack application that integrated geojson, maplibre, and the Mapbox API to display, edit , and style data on the map. Utilized Spring Boot for the back-end and ReactJS for the front-end.",
       descBullets: [
         "Created a web application that integrated cartography and utilized maps.",
         "Collaborated with the back-end team to integrate user-facing elements with server-side logic.",
@@ -204,7 +207,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Full Stack Developer Full Time",
+      role: "Full Stack Developer",
       company: "Progmix",
       companylogo: require("./assets/images/progmixLogo.jpeg"),
       date: "Jul 2023 – Feb 2024",
@@ -216,11 +219,16 @@ const workExperiences = {
       ]
     },
     {
-      role: "Full Stack Developer Intern",
+      role: "Full Stack Developer",
       company: "MashVisor",
       companylogo: require("./assets/images/msahvisorLogo.jpeg"),
       date: "Jul 2022 – Dec 2022",
-      desc: "Participated in the development of a Full Stack assignment, leveraging React, MongoDB, Express, and Node.js technologies. Acquired practical skills in Redis, data logging methods, and cookie implementation. Successfully deployed applications on platforms such as Heroku, refining expertise in deployment practices. Engaged in manual Quality Assurance (QA) testing procedures to ensure impeccable functionality. Collaborated within an Agile framework, adhering to Scrum methodologies to facilitate efficient teamwork and project accomplishment."
+      desc: "Remote Internship, got the opportunity to work with a real estate data analytics company that provides real estate data analysis and insights to help investors find the best investment properties.",
+      descBullets: [
+        "Participated in the development of a Full Stack assignment, leveraging React, MongoDB, Express, and Node.js technologies.",
+        "Acquired practical skills in Redis, data logging methods, and cookie implementation.",
+        "Successfully deployed applications on platforms such as Heroku, refining expertise in deployment practices."
+      ]
     }
   ]
 };
@@ -230,7 +238,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -247,7 +255,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://mashvisor.com"
         }
       ]
     },
@@ -258,7 +266,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://maphero.com/"
+          url: "https://maphero.io/"
         }
       ]
     },
@@ -274,6 +282,7 @@ const bigProjects = {
         }
       ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -407,7 +416,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
