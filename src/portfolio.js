@@ -231,9 +231,21 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME OF MY PROJECTS",
   projects: [
+    {
+      image: require("./assets/images/msahvisorLogo.jpeg"),
+      projectName: "Netflix Clone (Meflix)",
+      // built using nextjs , prisma , tailwindcss , and vercel
+      projectDesc:  "A Netflix clone built using Next.js, Prisma, Tailwind CSS, and Vercel. The project is a full-stack application that allows users to browse movies, watch trailers, and search for their favorite movies.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://movies.amroabuhashish.com"
+        }
+      ]
+    },
 
     {
       image: require("./assets/images/msahvisorLogo.jpeg"),
