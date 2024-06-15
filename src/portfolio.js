@@ -27,7 +27,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Mern , Django , SpringBoot , Android and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/10vEcaXrXlJcu64EKpTwhbW8k64MSTgfo/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1cl_5PEdDvga0ehaf4Ph8S9RjTfZs8hmK/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
