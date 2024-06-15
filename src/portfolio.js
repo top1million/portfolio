@@ -195,19 +195,6 @@ const workExperiences = {
   experience: [
     {
       role: "Full Stack Developer",
-      company: " IPC Ideal Solutions\n",
-      companylogo: require("./assets/images/idealLogo.png"),
-      date: "Mar 2024 – Present",
-      // for backend i used spring boot and for frontend i used reactjs , crafted a full stack application that integrated geojson , and leaflet , and used the mapbox api to display the data on the map
-      desc: "Crafted a full stack application that integrated geojson, maplibre, and the Mapbox API to display, edit , and style data on the map. Utilized Spring Boot for the back-end and ReactJS for the front-end.",
-      descBullets: [
-        "Created a web application that integrated cartography and utilized maps.",
-        "Collaborated with the back-end team to integrate user-facing elements with server-side logic.",
-        "Conducted regular testing to ensure optimal functionality and performance."
-      ]
-    },
-    {
-      role: "Full Stack Developer",
       company: "Progmix",
       companylogo: require("./assets/images/progmixLogo.jpeg"),
       date: "Jul 2023 – Feb 2024",
@@ -259,18 +246,6 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/mapHero.png"),
-      projectName: "MapHero",
-      projectDesc: "A web application that integrated cartography and utilized maps to provide users with an interactive experience. The project required a high level of attention to detail and a deep understanding of the client's needs.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://maphero.io/"
-        }
-      ]
-    },
-
     {
       image: require("./assets/images/jerusalem.jpeg"),
       projectName: "Latin Patriarchate of Jerusalem website",
