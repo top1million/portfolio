@@ -235,7 +235,7 @@ const bigProjects = {
   subtitle: "SOME OF MY PROJECTS",
   projects: [
     {
-      image: require("./assets/images/msahvisorLogo.jpeg"),
+      image: require("./assets/images/meflix.png"),
       projectName: "Netflix Clone (Meflix)",
       // built using nextjs , prisma , tailwindcss , and vercel
       projectDesc:  "A Netflix clone built using Next.js, Prisma, Tailwind CSS, and Vercel. The project is a full-stack application that allows users to browse movies, watch trailers, and search for their favorite movies.",
