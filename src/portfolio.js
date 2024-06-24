@@ -195,10 +195,27 @@ const workExperiences = {
   experience: [
     {
       role: "Full Stack Developer",
+      company: "Ideal",
+      companylogo: require("./assets/images/idealLogo.png"),
+      date: "Mar 2023 – Present",
+      // geojson ,maplibre, leaflet, react , nodejs , mongodb , express , fleet management system
+      desc: "Developed a Fleet Management System using GeoJSON, MapLibre, Leaflet, React, Node.js, MongoDB, and Express. The project is a full-stack application that allows users to track their vehicles, monitor their routes, and manage their fleet.",
+      descBullets: [
+        // refactor the code , added new features , fixed bugs
+        "Refactored the codebase, added new features, and fixed bugs.",
+        // worked with the tasks assigned to me on trello
+        "Worked with the tasks assigned to me on Trello.",
+        // worked on scripts to automate the map rendering/creation
+        "Worked on scripts to automate the map creation."
+        
+      ]
+    },
+    {
+      role: "Full Stack Developer",
       company: "Progmix",
       companylogo: require("./assets/images/progmixLogo.jpeg"),
       date: "Jul 2023 – Feb 2024",
-      desc: "Mastered front-end technologies, excelling in QA, reported and resolved security issues, transitioned seamlessly to deployment using Laravel and Livewire, demonstrated robust server management, ensured project success, engaged in R&D, and reported findings for strategic decision-making.",
+      desc: "Gained Experince in front-end technologies, excelling in QA, reported and resolved security issues, transitioned seamlessly to deployment using Laravel and Livewire, demonstrated robust server management, ensured project success, engaged in R&D, and reported findings for strategic decision-making.",
       descBullets: [
         "Created several full-stack projects, including crm and cms.",
         "Developed the companies servers and managed them.",
@@ -231,8 +248,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
-  subtitle: "SOME OF MY PROJECTS",
+  title: "Projects ",
+  subtitle: "Some of the projects I have worked on",
   projects: [
     {
       image: require("./assets/images/meflix.png"),
@@ -258,14 +275,16 @@ const bigProjects = {
         }
       ]
     },
+
     {
-      image: require("./assets/images/jerusalem.jpeg"),
-      projectName: "Latin Patriarchate of Jerusalem website",
-      projectDesc: "Developed and fixed bugs in the website of the Latin Patriarchate of Jerusalem, a project that required a high level of attention to detail and a deep understanding of the client's needs.",
+      image: require("./assets/images/mascot.png"),
+      projectName: "DuaLingo Clone (Lingo)",
+      // built using nexjs , react , tailwindcss , stripe ,drizzle, and vercel
+      projectDesc: "A Duolingo clone built using Next.js, React, Tailwind CSS, Stripe, Drizzle, and Vercel. The project is a full-stack application that allows users to learn new languages, track their progress, and purchase premium features.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://lpj.org/en/"
+          url: "https://lingo.amroabuhashish.com"
         }
       ]
     }
